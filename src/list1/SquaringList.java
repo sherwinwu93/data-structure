@@ -1,5 +1,7 @@
 package list1;
 
+import java.util.LinkedList;
+
 public class SquaringList {
     public static IntList square(IntList L) {
         if (L == null) {
