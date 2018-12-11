@@ -1,6 +1,7 @@
 package list4;
 
 import org.junit.Test;
+
 import static org.junit.Assert.*;
 
 /** Tests the AList class.

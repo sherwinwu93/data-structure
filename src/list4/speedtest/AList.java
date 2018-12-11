@@ -14,6 +14,7 @@ public class AList<Item> {
     private void resize(int capacity) {
         Item[] newArr =(Item[]) new Object[capacity];
         System.arraycopy(items, 0, newArr, 0, items.length);
+        items = newArr;
     }
 
     /** Inserts X into the back of the list. */
