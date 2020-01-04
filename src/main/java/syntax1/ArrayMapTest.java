@@ -35,7 +35,7 @@ public class ArrayMapTest {
     @Test
     public void keys() {
         List<Integer> keys = mis.keys();
-        List<Integer> expect = new ArrayList<>() {{
+        List<Integer> expect = new ArrayList<Integer>() {{
             add(1);
             add(2);
             add(3);

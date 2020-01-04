@@ -16,7 +16,7 @@ public class Ex02Test {
         String[] document = new String[] {"1", "2", "3", "1", "2", "3", "54", "5", "5", "5", "8", "1"};
         List<String> mostCommonWords = ex02.findMostCommonWords(document);
 
-        List<String> expected = new ArrayList<>() {{
+        List<String> expected = new ArrayList<String>() {{
             add("1");
             add("5");
         }};
